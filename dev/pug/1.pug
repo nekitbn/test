@@ -1,0 +1,17 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title pug
+		link(rel="stylesheet" href="dev/style.scss")
+	body
+		- var friends = 10
+		case friends
+			when 0
+				p you dont have friends
+			when 1	
+				p Yeaah!
+
+		a.text(href="#").
+			link
+		old.p: span lorem 
